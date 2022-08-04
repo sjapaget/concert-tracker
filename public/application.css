@@ -1,0 +1,20 @@
+/* Component Imports */
+@import url("./card.css");
+@import url("./button.css");
+
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.venue-section {
+  width: 40vw;
+  background-color: rgba(200, 200, 200, 0.2);
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.venue-section > div {
+  display: flex;
+  flex-wrap: wrap;
+}
