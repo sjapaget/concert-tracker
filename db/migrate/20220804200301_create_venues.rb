@@ -5,6 +5,7 @@ class CreateVenues < ActiveRecord::Migration[7.0]
       t.string :postcode
       t.string :street_address
       t.string :url
+      t.string :image
       t.timestamps
     end
   end
