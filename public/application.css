@@ -8,7 +8,13 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.venue-section {
+.index-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.venue-section, .artist-section {
   width: 40vw;
   background-color: rgba(200, 200, 200, 0.2);
   padding: 1em;

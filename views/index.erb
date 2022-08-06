@@ -1,15 +1,37 @@
-<div class="venue-section">
-  <h1>Venues</h1>
-  <div class="cards">
-  <% @all_venues.each do |venue| %>
-    <div class="card-product">
-      <img src="<%= venue.image %>" />
-      <div class="card-product-infos">
-        <h2><%= venue.name %></h2>
-        <p><%= venue.street_address %>, <%= venue.postcode %></p>
-        <a class="btn-link" href="#">See what's on</a>
+<div class="index-container">
+  <div class="venue-section">
+    <h2>Venues</h2>
+    <div class="cards">
+    <% @all_venues.each do |venue| %>
+      <div class="venue_card">
+        <img src="<%= venue.image %>" />
+        <div class="venue_card-infos">
+          <h2><%= venue.name %></h2>
+          <p><%= venue.street_address %>, <%= venue.postcode %></p>
+          <a class="btn-link" href="#">See what's on</a>
+        </div>
       </div>
+    <% end %>
     </div>
-  <% end %>
+  </div>
+
+  <div class="artist-section">
+    <h2>Artists</h2>
+    <div class="cards">
+    <% @all_artists.each do |artist| %>
+      <div class="artist_card">
+        <img src="https://images.unsplash.com/photo-1573152958734-1922c188fba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" />
+        <div class="artist_card-infos">
+          <h2><%= artist.name %></h2>
+          <p>artist description</p>
+          <div class="artist_card-links">
+            <a href="#"><i class="fa-solid fa-bell"></i></a>
+            <a href="#"><i class="fa-brands fa-spotify"></i></a>
+            <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    </div>
   </div>
 </div>
