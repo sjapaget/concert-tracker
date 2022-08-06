@@ -1,6 +1,7 @@
 /* Component Imports */
-@import url("./card.css");
 @import url("./button.css");
+@import url("./card.css");
+@import url("./nav.css");
 
 
 body {
