@@ -1,13 +1,27 @@
 .nav {
   align-items: flex-end;
+  background-color: rgba(230, 230, 230, 0.5);
   border-bottom: solid 1px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1em;
+  position: sticky;
+  top: 0;
 }
 
 .nav_logo {
   align-self: center;
   font-size: 4em;
   margin: 0.3em;
+}
+
+.nav > nav {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1em;
+  width: 33vw;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
 }

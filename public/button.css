@@ -1,16 +1,43 @@
+/* Nav buttons */
+
 .btn-link {
-  text-decoration: none;
   border-radius: 25px;
   border: solid 1px;
-  font-size: smaller;
-  text-align: center;
-  padding: 0.3em 1em;
-  margin: 0.3em;
   color: #01a917;
+  font-size: smaller;
+  margin: 0.3em;
   opacity: 0.5;
+  padding: 0.3em 1em;
+  text-align: center;
+  text-decoration: none;
   transition: 400ms;
 }
 
 .btn-link:hover {
   opacity: 1;
+}
+
+
+/* index buttons */
+
+.btn_banner {
+  background-color: #01a917;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.5em;
+  padding: 1em;
+  text-decoration: none;
+  transition: 1s;
+}
+.btn_banner:hover {
+  opacity: 0.8;
+}
+
+.btn_index_card {
+  font-size: 1.8em;
+  color: #01a917;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px 3px rgba(20, 20, 20, 0.1);
+  margin-bottom: 1em;
+  padding: 0.5em;
 }
