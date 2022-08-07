@@ -4,6 +4,7 @@ class CreateArtists < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :spotify_url
       t.string :artist_site_url
+      t.string :image
       t.references :genre, foreign_key: true
       t.timestamps
     end

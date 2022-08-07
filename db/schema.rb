@@ -15,6 +15,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_04_200501) do
     t.string "name"
     t.string "spotify_url"
     t.string "artist_site_url"
+    t.string "image"
     t.integer "genre_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
