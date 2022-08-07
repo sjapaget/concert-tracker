@@ -1,11 +1,14 @@
 /* Component Imports */
+@import url("./banner.css");
 @import url("./button.css");
 @import url("./card.css");
 @import url("./nav.css");
 
 
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  margin: 0;
 }
 
 .index-container {

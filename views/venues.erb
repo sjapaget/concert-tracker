@@ -1,0 +1,15 @@
+<div class="venue-section">
+    <h2>Venues</h2>
+    <div class="cards">
+    <% @all_venues.each do |venue| %>
+      <div class="venue_card">
+        <img src="<%= venue.image %>" />
+        <div class="venue_card-infos">
+          <h2><%= venue.name %></h2>
+          <p><%= venue.street_address %>, <%= venue.postcode %></p>
+          <a class="btn-link" href="#">See what's on</a>
+        </div>
+      </div>
+    <% end %>
+    </div>
+  </div>
