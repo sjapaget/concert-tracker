@@ -10,9 +10,13 @@ require_relative "models/artist"
 
 
 get "/" do
-
-  @all_venues = Venue.all
-  @all_artists = Artist.all
-
   erb :index
 end
+
+get "/artists" do
+
+  @all_artists = Artist.all
+
+  erb :artists
+end
+
