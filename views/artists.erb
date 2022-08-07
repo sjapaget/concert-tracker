@@ -1,5 +1,5 @@
-  <div class="artist-section">
-    <h2>Artists</h2>
+  <div class="artists_container">
+    <h2>All Artists</h2>
     <div class="cards">
     <% @all_artists.each do |artist| %>
       <div class="artist_card">
@@ -13,6 +13,7 @@
             <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
           </div>
         </div>
+        <a class="artist_card-btn" href="/artist/<%=artist.id%>">See more</a>
       </div>
     <% end %>
     </div>

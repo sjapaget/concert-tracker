@@ -41,3 +41,12 @@
   margin-bottom: 1em;
   padding: 0.5em;
 }
+
+/* artists page buttons */
+
+.artist_card-btn {
+  color: white;
+  background-color: blueviolet;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}

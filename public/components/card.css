@@ -20,21 +20,23 @@
 
 /* Artist Card */
 .artist_card {
-  overflow: hidden;
-  height: 20vh;
-  width: 100%;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  display: flex;
   align-items: center;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
   margin-bottom: 1em;
+  overflow: hidden;
+  padding-right: 1em;
+  width: 100%;
 }
 
 .artist_card img {
   height: 100%;
-  width: 120px;
   object-fit: cover;
+  width: 120px;
 }
 
 .artist_card-links {
@@ -49,6 +51,7 @@
 
 .artist_card-infos {
   margin: 1em 1.5em;
+  text-align: center;
 }
 
 .artist_card-infos h2 {

@@ -14,9 +14,7 @@ get "/" do
 end
 
 get "/artists" do
-
   @all_artists = Artist.all
 
   erb :artists
 end
-

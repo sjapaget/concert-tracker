@@ -1,10 +1,11 @@
 /* Component Imports */
-@import url("./banner.css");
-@import url("./button.css");
-@import url("./card.css");
-@import url("./nav.css");
+@import url("./components/banner.css");
+@import url("./components/button.css");
+@import url("./components/card.css");
+@import url("./components/nav.css");
 
-
+/* Page imports */
+@import url("./pages/artists.css");
 
 body {
   font-family: 'Courier New', Courier, monospace;
@@ -13,12 +14,12 @@ body {
 
 .index-container {
   display: flex;
-  justify-content: space-between;
+  width: auto;
 }
 
 
-.venue-section, .artist-section {
-  width: 40vw;
+.venue-section {
+  width: 60vw;
   background-color: rgba(200, 200, 200, 0.2);
   padding: 1em;
   border-radius: 15px;
