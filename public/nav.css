@@ -1,0 +1,13 @@
+.nav {
+  align-items: flex-end;
+  border-bottom: solid 1px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.nav_logo {
+  align-self: center;
+  font-size: 4em;
+  margin: 0.3em;
+}
