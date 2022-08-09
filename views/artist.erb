@@ -1,1 +1,24 @@
-<h1>artist</h1>
+<div class="artist_info_container">
+  <h1><%= @artist.name %></h1>
+  <img src="<%= @artist.image %>" alt="A photo of<%= @artist.name %>">
+
+  <p>Genre: <%= @artist.genre.name %></p>
+
+  <a href="">Upcoming events</a>
+
+  <div class="similar_artists">
+  <h3>Similar Artists:</h3>
+    <div class="similar_artist_card">
+      <p>artist</p>
+    </div>
+
+    <div class="similar_artist_card">
+      <p>artist</p>
+    </div>
+
+    <div class="similar_artist_card">
+      <p>artist</p>
+    </div>
+
+  </div>
+</div>

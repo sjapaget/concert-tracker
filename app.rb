@@ -19,6 +19,7 @@ get "/artists" do
 end
 
 get "/artist/:id" do
+  @artist = Artist.find(params[:id])
 
   erb :artist
 end
