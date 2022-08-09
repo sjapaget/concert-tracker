@@ -1,11 +1,18 @@
 <div class="artist_info_container">
+  <div>
   <h1><%= @artist.name %></h1>
+    <p>Genre: <%= @artist.genre.name %></p>
+  </div>
+  <div class="artist_info-upcoming">
+    <h4>Upcoming events</h6>
+    <ul>
+      <li>event 1</li>
+      <li>event 2</li>
+    </ul>
+      <a class="artist_events-btn" href="#" >More Events</a>
+  </div>
   <img src="<%= @artist.image %>" alt="A photo of<%= @artist.name %>">
-
-  <p>Genre: <%= @artist.genre.name %></p>
-
-  <a href="">Upcoming events</a>
-
+</div>
   <div class="similar_artists">
   <h3>Similar Artists:</h3>
     <div class="similar_artist_card">
@@ -21,4 +28,3 @@
     </div>
 
   </div>
-</div>

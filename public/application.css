@@ -6,6 +6,7 @@
 
 /* Page imports */
 @import url("./pages/artists.css");
+@import url("./pages/artist.css");
 
 body {
   font-family: 'Courier New', Courier, monospace;
