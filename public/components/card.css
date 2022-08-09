@@ -18,7 +18,7 @@
   font-size: 1.5em;
 }
 
-/* Artist Card */
+/* Artists page Cards */
 .artist_card {
   align-items: center;
   background: white;
@@ -59,7 +59,18 @@
   margin-top: 1em;
 }
 
+/* artist info page cards */
 
+.suggestion_cards-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.similar_artist_card {
+  border: solid 1px;
+  border-radius: 4px;
+  padding: 2em;
+}
 
 /* Venue cards */
 .venue_card {

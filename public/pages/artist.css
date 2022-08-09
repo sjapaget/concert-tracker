@@ -24,3 +24,9 @@
   text-align: center;
   margin: 0.5em 1em;
 }
+
+.similar_artists {
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
