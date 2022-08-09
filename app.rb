@@ -8,7 +8,6 @@ require_relative "config/application"
 require_relative "models/venue"
 require_relative "models/artist"
 
-
 get "/" do
   erb :index
 end
@@ -17,4 +16,9 @@ get "/artists" do
   @all_artists = Artist.all
 
   erb :artists
+end
+
+get "/artist/:id" do
+
+  erb :artist
 end
