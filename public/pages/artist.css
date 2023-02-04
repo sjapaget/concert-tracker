@@ -1,0 +1,32 @@
+.artist_info_container {
+  background-color: rgba(200, 200, 200, 0.6);
+  border-radius: 15px;
+  margin: 1em auto;
+  padding: 2em;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.artist_info-upcoming {
+  text-align: center;
+}
+
+.artist_info-upcoming ul {
+  padding: 0;
+}
+
+.artist_info-upcoming li {
+  border: solid;
+  border-radius: 4px;
+  list-style: none;
+  text-align: center;
+  margin: 0.5em 1em;
+}
+
+.similar_artists {
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
